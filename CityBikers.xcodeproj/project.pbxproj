@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A54A3AD1E8D6BA3008F7503 /* RegstrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54A3AC1E8D6BA3008F7503 /* RegstrationTableViewController.swift */; };
+		9A54A3AF1E8D6BD2008F7503 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54A3AE1E8D6BD2008F7503 /* LoginTableViewController.swift */; };
+		9A76BCB51E8C4BF7005EECC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76BCB41E8C4BF7005EECC2 /* AppDelegate.swift */; };
+		9A76BCB71E8C4BF7005EECC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76BCB61E8C4BF7005EECC2 /* ViewController.swift */; };
+		9A76BCBA1E8C4BF7005EECC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76BCB81E8C4BF7005EECC2 /* Main.storyboard */; };
+		9A76BCBD1E8C4BF7005EECC2 /* CityBikers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A76BCBB1E8C4BF7005EECC2 /* CityBikers.xcdatamodeld */; };
+		9A76BCBF1E8C4BF7005EECC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A76BCBE1E8C4BF7005EECC2 /* Assets.xcassets */; };
+		9A76BCC21E8C4BF7005EECC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76BCC01E8C4BF7005EECC2 /* LaunchScreen.storyboard */; };
+		9ABADACA1E8F83B500DE095B /* FirebaseUserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABADAC91E8F83B500DE095B /* FirebaseUserDataService.swift */; };
+		9AC612151E8D86D60086365A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC612141E8D86D60086365A /* User.swift */; };
+		9AC612191E8D99860086365A /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC612181E8D99860086365A /* UserProfileViewController.swift */; };
+		9AEAEEFB1E8E5BB600927CCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AEAEEFA1E8E5BB600927CCF /* GoogleService-Info.plist */; };
+		B71387428858C28D49084695 /* Pods_CityBikers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636C426FEB5BD9C2991A4D08 /* Pods_CityBikers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D89F675AD0BCB4F3CE8858F /* Pods-CityBikers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityBikers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityBikers/Pods-CityBikers.debug.xcconfig"; sourceTree = "<group>"; };
+		636C426FEB5BD9C2991A4D08 /* Pods_CityBikers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityBikers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A54A3AC1E8D6BA3008F7503 /* RegstrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegstrationTableViewController.swift; sourceTree = "<group>"; };
+		9A54A3AE1E8D6BD2008F7503 /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		9A76BCB11E8C4BF7005EECC2 /* CityBikers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityBikers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A76BCB41E8C4BF7005EECC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A76BCB61E8C4BF7005EECC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A76BCB91E8C4BF7005EECC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A76BCBC1E8C4BF7005EECC2 /* CityBikers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CityBikers.xcdatamodel; sourceTree = "<group>"; };
+		9A76BCBE1E8C4BF7005EECC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A76BCC11E8C4BF7005EECC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A76BCC31E8C4BF7005EECC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABADAC91E8F83B500DE095B /* FirebaseUserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseUserDataService.swift; path = Data/FirebaseUserDataService.swift; sourceTree = "<group>"; };
+		9AC612141E8D86D60086365A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9AC612181E8D99860086365A /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		9AEAEEFA1E8E5BB600927CCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0F94A44E76F8C5A275012F7 /* Pods-CityBikers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityBikers.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityBikers/Pods-CityBikers.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A76BCAE1E8C4BF7005EECC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71387428858C28D49084695 /* Pods_CityBikers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882C519FE010C50F1319B36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				636C426FEB5BD9C2991A4D08 /* Pods_CityBikers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A54A3AB1E8D6ADC008F7503 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A76BCB61E8C4BF7005EECC2 /* ViewController.swift */,
+				9A54A3AC1E8D6BA3008F7503 /* RegstrationTableViewController.swift */,
+				9A54A3AE1E8D6BD2008F7503 /* LoginTableViewController.swift */,
+				9AC612181E8D99860086365A /* UserProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9A76BCA81E8C4BF7005EECC2 = {
+			isa = PBXGroup;
+			children = (
+				9AEAEEFA1E8E5BB600927CCF /* GoogleService-Info.plist */,
+				9A76BCB31E8C4BF7005EECC2 /* CityBikers */,
+				9A76BCB21E8C4BF7005EECC2 /* Products */,
+				F9D20BD47AFA64AA4B67495A /* Pods */,
+				882C519FE010C50F1319B36A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A76BCB21E8C4BF7005EECC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A76BCB11E8C4BF7005EECC2 /* CityBikers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A76BCB31E8C4BF7005EECC2 /* CityBikers */ = {
+			isa = PBXGroup;
+			children = (
+				9ABADAC61E8F7F1300DE095B /* Data */,
+				9AC612131E8D86C70086365A /* Models */,
+				9A54A3AB1E8D6ADC008F7503 /* ViewControllers */,
+				9A76BCB41E8C4BF7005EECC2 /* AppDelegate.swift */,
+				9A76BCB81E8C4BF7005EECC2 /* Main.storyboard */,
+				9A76BCBE1E8C4BF7005EECC2 /* Assets.xcassets */,
+				9A76BCC01E8C4BF7005EECC2 /* LaunchScreen.storyboard */,
+				9A76BCC31E8C4BF7005EECC2 /* Info.plist */,
+				9A76BCBB1E8C4BF7005EECC2 /* CityBikers.xcdatamodeld */,
+			);
+			path = CityBikers;
+			sourceTree = "<group>";
+		};
+		9ABADAC61E8F7F1300DE095B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9ABADAC91E8F83B500DE095B /* FirebaseUserDataService.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		9AC612131E8D86C70086365A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AC612141E8D86D60086365A /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9D20BD47AFA64AA4B67495A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D89F675AD0BCB4F3CE8858F /* Pods-CityBikers.debug.xcconfig */,
+				A0F94A44E76F8C5A275012F7 /* Pods-CityBikers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A76BCB01E8C4BF7005EECC2 /* CityBikers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A76BCC61E8C4BF7005EECC2 /* Build configuration list for PBXNativeTarget "CityBikers" */;
+			buildPhases = (
+				CDA42F2185B1C4E89CE5BAE4 /* [CP] Check Pods Manifest.lock */,
+				9A76BCAD1E8C4BF7005EECC2 /* Sources */,
+				9A76BCAE1E8C4BF7005EECC2 /* Frameworks */,
+				9A76BCAF1E8C4BF7005EECC2 /* Resources */,
+				5FEF4A81C93375ACB344A2B2 /* [CP] Embed Pods Frameworks */,
+				A521F2E6D1F16559962F5577 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityBikers;
+			productName = CityBikers;
+			productReference = 9A76BCB11E8C4BF7005EECC2 /* CityBikers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A76BCA91E8C4BF7005EECC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					navigation,
+				);
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Viliana Zhilkova";
+				TargetAttributes = {
+					9A76BCB01E8C4BF7005EECC2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A76BCAC1E8C4BF7005EECC2 /* Build configuration list for PBXProject "CityBikers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A76BCA81E8C4BF7005EECC2;
+			productRefGroup = 9A76BCB21E8C4BF7005EECC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A76BCB01E8C4BF7005EECC2 /* CityBikers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A76BCAF1E8C4BF7005EECC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A76BCC21E8C4BF7005EECC2 /* LaunchScreen.storyboard in Resources */,
+				9AEAEEFB1E8E5BB600927CCF /* GoogleService-Info.plist in Resources */,
+				9A76BCBF1E8C4BF7005EECC2 /* Assets.xcassets in Resources */,
+				9A76BCBA1E8C4BF7005EECC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FEF4A81C93375ACB344A2B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityBikers/Pods-CityBikers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A521F2E6D1F16559962F5577 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityBikers/Pods-CityBikers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA42F2185B1C4E89CE5BAE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A76BCAD1E8C4BF7005EECC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A54A3AF1E8D6BD2008F7503 /* LoginTableViewController.swift in Sources */,
+				9A54A3AD1E8D6BA3008F7503 /* RegstrationTableViewController.swift in Sources */,
+				9AC612191E8D99860086365A /* UserProfileViewController.swift in Sources */,
+				9ABADACA1E8F83B500DE095B /* FirebaseUserDataService.swift in Sources */,
+				9AC612151E8D86D60086365A /* User.swift in Sources */,
+				9A76BCBD1E8C4BF7005EECC2 /* CityBikers.xcdatamodeld in Sources */,
+				9A76BCB71E8C4BF7005EECC2 /* ViewController.swift in Sources */,
+				9A76BCB51E8C4BF7005EECC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A76BCB81E8C4BF7005EECC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A76BCB91E8C4BF7005EECC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A76BCC01E8C4BF7005EECC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A76BCC11E8C4BF7005EECC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A76BCC41E8C4BF7005EECC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A76BCC51E8C4BF7005EECC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A76BCC71E8C4BF7005EECC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D89F675AD0BCB4F3CE8858F /* Pods-CityBikers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityBikers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VZ.CityBikers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A76BCC81E8C4BF7005EECC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F94A44E76F8C5A275012F7 /* Pods-CityBikers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CityBikers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VZ.CityBikers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A76BCAC1E8C4BF7005EECC2 /* Build configuration list for PBXProject "CityBikers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A76BCC41E8C4BF7005EECC2 /* Debug */,
+				9A76BCC51E8C4BF7005EECC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A76BCC61E8C4BF7005EECC2 /* Build configuration list for PBXNativeTarget "CityBikers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A76BCC71E8C4BF7005EECC2 /* Debug */,
+				9A76BCC81E8C4BF7005EECC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A76BCBB1E8C4BF7005EECC2 /* CityBikers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A76BCBC1E8C4BF7005EECC2 /* CityBikers.xcdatamodel */,
+			);
+			currentVersion = 9A76BCBC1E8C4BF7005EECC2 /* CityBikers.xcdatamodel */;
+			path = CityBikers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A76BCA91E8C4BF7005EECC2 /* Project object */;
+}
